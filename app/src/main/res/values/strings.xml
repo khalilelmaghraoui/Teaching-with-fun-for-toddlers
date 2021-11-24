@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="your_funny_teacher">Your Funny Teacher</string>
-    <string name="todo">TODO</string>
+
+    <string name="me">Me</string>
 </resources>
