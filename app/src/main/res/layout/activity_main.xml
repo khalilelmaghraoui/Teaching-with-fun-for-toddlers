@@ -15,11 +15,11 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:background="#DC3D31">
+        >
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:src="@drawable/logo">
 
         </ImageView>
@@ -137,7 +137,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/icon" />
+                        android:src="@drawable/shapes" />
 
 
                 </LinearLayout>
@@ -171,7 +171,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/icon" />
+                        android:src="@drawable/fruits" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -210,7 +210,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/icon" />
+                        android:src="@drawable/verg" />
 
                     <TextView
                         android:layout_width="wrap_content"
