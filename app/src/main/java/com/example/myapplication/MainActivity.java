@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         // buttons
         abs = findViewById(R.id.abc);
-        un23 = findViewById(R.id.un23);
+        un23 = findViewById(R.id.nbrs);
 
 
         //Listener abs
@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Listener un123
 
         abs.setOnClickListener(new View.OnClickListener() {
             @Override
