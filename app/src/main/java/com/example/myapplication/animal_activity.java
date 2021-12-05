@@ -20,7 +20,7 @@ public class animal_activity extends AppCompatActivity {
 
         viewPager2 = findViewById(R.id.viewpager);
         int[] images = {R.drawable.calabaza,R.drawable.alphabet,R.drawable.logo,R.drawable.eggplant,R.drawable.eggplant};
-        String[] heading = {"Baked","Grilled","Dessert","Italian","Shakes"};
+        String[] heading = {"Baked ","Grilled","Dessert","Italian","Shakes"};
         String[] desc = {getString(R.string.a_desc),
             getString(R.string.b_desc),
             getString(R.string.c_desc),
