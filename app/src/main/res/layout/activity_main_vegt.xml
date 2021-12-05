@@ -23,16 +23,12 @@
                 android:layout_height="80dp"
                 android:layout_marginTop="13dp"
                 android:text="Vegetables"
+                
                 android:textColor="@color/black"
                 android:textSize="40dp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:layout_alignParentRight="true"
-                android:elevation="10dp"
-                android:layout_width="39dp"
-                android:layout_height="39dp"
-                android:src="@drawable/logo0"/>
+            <
 
         </RelativeLayout>
 
@@ -359,12 +355,13 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/card"/>
+                        android:src="@drawable/onion"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/secondary"
-                        android:text="Card Reader"
+                        android:text="Onion"
+                        android:layout_gravity="center"
+
                         android:textSize="13dp"/>
 
                 </LinearLayout>
@@ -390,13 +387,14 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/swipe"/>
+                        android:src="@drawable/beetroot"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Card Swipe"
-                        android:textColor="@color/secondary"
+                        android:text="Beetroot"
+                        android:layout_gravity="center"
+
                         android:textSize="13dp" />
 
                 </LinearLayout>
@@ -422,13 +420,14 @@
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/swipe"/>
+                        android:src="@drawable/mashroom"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Card Swipe"
-                        android:textColor="@color/secondary"
+                        android:text="Mashroom"
+                        android:layout_gravity="center"
+
                         android:textSize="13dp" />
 
                 </LinearLayout>
