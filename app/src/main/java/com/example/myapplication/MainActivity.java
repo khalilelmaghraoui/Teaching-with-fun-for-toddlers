@@ -23,15 +23,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        viewPager2 = findViewById(R.id.animalsSlider);
-        List<SliderAnimals> sliderAnimals = new ArrayList<>();
 
-        sliderAnimals.add(new SliderAnimals(R.drawable.alphabet));
-        sliderAnimals.add(new SliderAnimals(R.drawable.bg));
-        sliderAnimals.add(new SliderAnimals(R.drawable.un23));
-        sliderAnimals.add(new SliderAnimals(R.drawable.fruits));
 
-        viewPager2.setAdapter(new SliderAdapter(sliderAnimals,viewPager2));
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
