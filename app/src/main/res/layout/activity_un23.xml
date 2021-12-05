@@ -611,7 +611,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Seven"
-                            android:layout_marginStart="10dp"
+                            android:layout_marginStart="5dp"
                             android:textSize="50dp"
                             android:textStyle="bold" />
 
@@ -620,7 +620,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginStart="70dp"
+                        android:layout_marginStart="0dp"
                         android:orientation="vertical"
                         >
 
@@ -692,7 +692,7 @@
                             android:layout_height="wrap_content"
                             android:text="Eight"
                             android:layout_marginStart="10dp"
-                            android:textSize="50dp"
+                            android:textSize="40dp"
                             android:textStyle="bold" />
 
                     </LinearLayout>
@@ -700,7 +700,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginStart="70dp"
+                        android:layout_marginStart="40dp"
                         android:orientation="vertical"
                         >
 
@@ -780,7 +780,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginStart="70dp"
+                        android:layout_marginStart="60dp"
                         android:orientation="vertical"
                         >
 
@@ -838,7 +838,7 @@
                     <ImageView
                         android:layout_width="117dp"
                         android:layout_height="match_parent"
-                        android:background="@drawable/six" />
+                        android:background="@drawable/ten" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"
