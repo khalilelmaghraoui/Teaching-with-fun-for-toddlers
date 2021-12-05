@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        abs.setOnClickListener(new View.OnClickListener() {
+        un23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent activity2Intent = new Intent(getApplicationContext(), un23Activity.class);

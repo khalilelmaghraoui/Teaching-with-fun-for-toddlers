@@ -17,12 +17,7 @@
         android:layout_weight="2"
         >
 
-        <androidx.viewpager2.widget.ViewPager2
-            android:id="@+id/animalsSlider"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingStart="80dp"
-            android:paddingEnd="80dp">
+
 
 
             <ImageView
@@ -31,7 +26,6 @@
                 android:src="@drawable/logo">
 
             </ImageView>
-        </androidx.viewpager2.widget.ViewPager2>
 
 
     </RelativeLayout>

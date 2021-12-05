@@ -9,12 +9,13 @@
         <entry key="..\:/Users/KURAPIKA.dll/Desktop/Teaching-with-fun-for-toddlers/app/src/main/res/layout/activity_animals.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/KURAPIKA.dll/Desktop/Teaching-with-fun-for-toddlers/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/KURAPIKA.dll/Desktop/Teaching-with-fun-for-toddlers/app/src/main/res/layout/activity_main2.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/KURAPIKA.dll/Desktop/Teaching-with-fun-for-toddlers/app/src/main/res/layout/activity_main_vegt.xml" value="0.264" />
         <entry key="..\:/Users/KURAPIKA.dll/Desktop/Teaching-with-fun-for-toddlers/app/src/main/res/layout/activity_un23.xml" value="0.176" />
         <entry key="..\:/Users/KURAPIKA.dll/Desktop/Teaching-with-fun-for-toddlers/app/src/main/res/layout/slide_animals.xml" value="0.24010416666666667" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
@@ -23,7 +24,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.176" />
+        <option name="scale" value="0.264" />
       </ProjectState>
     </option>
   </component>
