@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     ImageView abs;
     ImageView un23;
+    ImageView animls;
+
 
     private ViewPager2 viewPager2;
 
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         // buttons
         abs = findViewById(R.id.abc);
         un23 = findViewById(R.id.nbrs);
+        animls = findViewById(R.id.anmls);
 
 
         //Listener abs
@@ -53,5 +56,15 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        animls.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent animalsIntent = new Intent(getApplicationContext(), animals.class);
+                startActivity(animalsIntent);
+
+            }
+        });
+
+
     }
 }
