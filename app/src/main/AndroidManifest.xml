@@ -10,10 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".AlphabetActivity"
-            android:exported="false" />
-        <activity
-            android:name=".animals"
+            android:name=".animal_activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
