@@ -13,7 +13,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView abs;
+    ImageView vegts;
     ImageView un23;
     ImageView animals;
 
@@ -30,16 +30,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // buttons
-        abs = findViewById(R.id.abc);
+        vegts = findViewById(R.id.vegts);
         un23 = findViewById(R.id.nbrs);
         animals = findViewById(R.id.anmls);
 
 
         //Listener abs
-        abs.setOnClickListener(new View.OnClickListener() {
+        vegts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent abcIntent = new Intent(getApplicationContext(), abcActivity.class);
+                Intent abcIntent = new Intent(getApplicationContext(), Main_vegt.class);
                 startActivity(abcIntent);
 
             }
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         animals.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent animalsIntent = new Intent(getApplicationContext(), un23Activity.class);
+                Intent animalsIntent = new Intent(getApplicationContext(), animals.class);
                 startActivity(animalsIntent);
 
 

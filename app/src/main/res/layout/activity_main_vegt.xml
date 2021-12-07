@@ -41,7 +41,8 @@
             android:rowCount="1"
             android:columnCount="2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            >
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card1"
@@ -51,14 +52,16 @@
                 android:layout_rowWeight="1"
                 app:elevation="60dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:orientation="vertical"
-                    android:padding="16dp">
+                    android:padding="16dp"
+                    android:background="@color/white">
 
                     <ImageView
                         android:id="@+id/receiptImage"
@@ -73,6 +76,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Potato"
+                        android:textColor="@color/black"
                         android:textSize="25dp" />
 
                 </LinearLayout>
@@ -87,14 +91,16 @@
                 android:layout_rowWeight="1"
                 app:elevation="60dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:layout_gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/white">
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="100dp"
@@ -104,7 +110,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="carotte"
+                        android:textColor="@color/black"
+                        android:text="Carotte"
                         android:textSize="25dp"/>
 
                 </LinearLayout>
@@ -119,14 +126,16 @@
                 android:layout_rowWeight="1"
                 app:elevation="60dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:layout_gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/white">
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="100dp"
@@ -135,8 +144,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="pumpkin"
+                        android:text="Pumpkin"
                         android:layout_gravity="center"
+                        android:textColor="@color/black"
 
                         android:textSize="25dp"/>
 
@@ -152,24 +162,28 @@
                 android:layout_rowWeight="1"
                 app:elevation="60dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:layout_gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/white">
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/eggplant"/>
+                        android:src="@drawable/eggplant"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="eggplante"
+                        android:text="Eggplante"
+                        android:textColor="@color/black"
                         android:layout_gravity="center"
                         android:textSize="25dp" />
 
@@ -184,14 +198,16 @@
                 android:layout_rowWeight="1"
                 app:elevation="60dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:orientation="vertical"
-                    android:padding="16dp">
+                    android:padding="16dp"
+                    android:background="@color/white">
 
                     <ImageView
                         android:layout_width="120dp"
@@ -205,6 +221,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Tomato"
+                        android:textColor="@color/black"
                         android:textSize="25dp" />
 
                 </LinearLayout>
@@ -218,14 +235,16 @@
                 android:layout_rowWeight="1"
                 app:elevation="60dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:layout_gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/white">
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="100dp"
@@ -235,8 +254,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="cucumber"
-                        android:textSize="25dp"/>
+                        android:text="Cucumber"
+                        android:textSize="25dp"
+                        android:textColor="@color/black"/>
 
                 </LinearLayout>
 
@@ -249,14 +269,16 @@
                 android:layout_rowWeight="1"
                 app:elevation="60dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:layout_gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/white">
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="100dp"
@@ -268,6 +290,7 @@
                         android:layout_gravity="center"
 
                         android:text="Capsicum"
+                        android:textColor="@color/black"
                         android:textSize="25dp"/>
 
                 </LinearLayout>
@@ -281,14 +304,16 @@
                 android:layout_rowWeight="1"
                 app:elevation="60dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:layout_gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/white">
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="100dp"
@@ -299,6 +324,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Corn"
+                        android:textColor="@color/black"
                         android:layout_gravity="center"
                         android:textSize="25dp" />
 
@@ -313,14 +339,16 @@
                 android:layout_rowWeight="1"
                 app:elevation="60dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:layout_gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/white">
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="100dp"
@@ -331,6 +359,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Pea"
+                        android:textColor="@color/black"
                         android:textSize="25dp"/>
 
                 </LinearLayout>
@@ -344,14 +373,16 @@
                 android:layout_rowWeight="1"
                 app:elevation="60dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:layout_gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/white">
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="100dp"
@@ -361,6 +392,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Onion"
+                        android:textColor="@color/black"
                         android:layout_gravity="center"
 
                         android:textSize="25dp"/>
@@ -376,14 +408,16 @@
                 android:layout_rowWeight="1"
                 app:elevation="60dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:layout_gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/white">
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="100dp"
@@ -394,6 +428,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Beetroot"
+                        android:textColor="@color/black"
                         android:layout_gravity="center"
 
                         android:textSize="25dp" />
@@ -409,14 +444,16 @@
                 android:layout_rowWeight="1"
                 app:elevation="60dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
                     android:layout_gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@color/white">
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="100dp"
@@ -427,6 +464,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Mashroom"
+                        android:textColor="@color/black"
                         android:layout_gravity="center"
 
                         android:textSize="25dp" />
