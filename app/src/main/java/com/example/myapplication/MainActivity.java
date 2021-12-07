@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         animals.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent animalsIntent = new Intent(getApplicationContext(), animal_activity.class);
+                Intent animalsIntent = new Intent(getApplicationContext(), un23Activity.class);
                 startActivity(animalsIntent);
 
 

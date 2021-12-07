@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".animal_activity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,18 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Main_vegt"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".animalsActivity"
-            android:exported="false" />
+        
         <activity
             android:name=".un23Activity"
             android:exported="false" />
@@ -37,7 +26,7 @@
             android:name=".abcActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Main_vegt"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

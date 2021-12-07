@@ -20,13 +20,13 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="67dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="13dp"
-
+                android:background="#998BC34A"
                 android:text="Vegetables"
-
-                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textColor="@color/white"
                 android:textSize="40dp"
                 android:textStyle="bold" />
 
@@ -73,7 +73,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Potato"
-                        android:textSize="15dp" />
+                        android:textSize="25dp" />
 
                 </LinearLayout>
 
@@ -105,7 +105,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="carotte"
-                        android:textSize="13dp"/>
+                        android:textSize="25dp"/>
 
                 </LinearLayout>
 
@@ -138,7 +138,7 @@
                         android:text="pumpkin"
                         android:layout_gravity="center"
 
-                        android:textSize="13dp"/>
+                        android:textSize="25dp"/>
 
                 </LinearLayout>
 
@@ -171,7 +171,7 @@
                         android:layout_height="wrap_content"
                         android:text="eggplante"
                         android:layout_gravity="center"
-                        android:textSize="13dp" />
+                        android:textSize="25dp" />
 
                 </LinearLayout>
 
@@ -205,7 +205,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Tomato"
-                        android:textSize="13dp" />
+                        android:textSize="25dp" />
 
                 </LinearLayout>
 
@@ -236,7 +236,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="cucumber"
-                        android:textSize="13dp"/>
+                        android:textSize="25dp"/>
 
                 </LinearLayout>
 
@@ -268,7 +268,7 @@
                         android:layout_gravity="center"
 
                         android:text="Capsicum"
-                        android:textSize="13dp"/>
+                        android:textSize="25dp"/>
 
                 </LinearLayout>
 
@@ -300,7 +300,7 @@
                         android:layout_height="wrap_content"
                         android:text="Corn"
                         android:layout_gravity="center"
-                        android:textSize="13dp" />
+                        android:textSize="25dp" />
 
                 </LinearLayout>
 
@@ -331,7 +331,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Pea"
-                        android:textSize="13dp"/>
+                        android:textSize="25dp"/>
 
                 </LinearLayout>
 
@@ -363,7 +363,7 @@
                         android:text="Onion"
                         android:layout_gravity="center"
 
-                        android:textSize="13dp"/>
+                        android:textSize="25dp"/>
 
                 </LinearLayout>
 
@@ -396,7 +396,7 @@
                         android:text="Beetroot"
                         android:layout_gravity="center"
 
-                        android:textSize="13dp" />
+                        android:textSize="25dp" />
 
                 </LinearLayout>
 
@@ -429,7 +429,7 @@
                         android:text="Mashroom"
                         android:layout_gravity="center"
 
-                        android:textSize="13dp" />
+                        android:textSize="25dp" />
 
                 </LinearLayout>
 
