@@ -3,8 +3,10 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 import java.util.ArrayList;
 
@@ -17,8 +19,18 @@ public class animals extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animals);
 
+        int [] sounds;
+        MediaPlayer mediaPlayer;
+
+        sounds= new int[] {R.raw.cat,R.raw.lion};
+        ImageView img = findViewById(R.id.play);
+        final MediaPlayer cat = MediaPlayer.create(getApplicationContext(),R.raw.lion);
+
+
+
         viewPager2 = findViewById(R.id.viewpager);
         int[] images = {R.drawable.lion,R.drawable.cat,R.drawable.gazelle,R.drawable.dog,R.drawable.fish};
+
         String[] heading = {"lion","cat","gazelle","dog","fish"};
         String[] desc = {getString(R.string.lion_desc),
             getString(R.string.cat_desc),
@@ -31,9 +43,13 @@ public class animals extends AppCompatActivity {
         for (int i =0; i< images.length ; i++){
 
             ViewPagerItem viewPagerItem = new ViewPagerItem(images[i],heading[i],desc[i]);
+
+
+
             viewPagerItemArrayList.add(viewPagerItem);
 
         }
+
 
         VPAdapter vpAdapter = new VPAdapter(viewPagerItemArrayList);
 
