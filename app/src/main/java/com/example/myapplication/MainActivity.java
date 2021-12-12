@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
     ImageView vegts;
     ImageView un23;
     ImageView animals;
+    ImageView alphabets;
+    ImageView fruit;
+    ImageView shape;
 
 
 
@@ -33,13 +36,44 @@ public class MainActivity extends AppCompatActivity {
         vegts = findViewById(R.id.vegts);
         un23 = findViewById(R.id.nbrs);
         animals = findViewById(R.id.anmls);
-
+        alphabets = findViewById(R.id.abc);
+        fruit = findViewById(R.id.frts);
+        shape = findViewById(R.id.shapes);
 
         //Listener abs
         vegts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent abcIntent = new Intent(getApplicationContext(), Main_vegt.class);
+                startActivity(abcIntent);
+
+            }
+        });
+
+        alphabets.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent abcIntent = new Intent(getApplicationContext(), alphabets.class);
+                startActivity(abcIntent);
+
+            }
+        });
+
+
+        fruit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent abcIntent = new Intent(getApplicationContext(), fruits.class);
+                startActivity(abcIntent);
+
+            }
+        });
+
+
+        shape.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent abcIntent = new Intent(getApplicationContext(), shapes.class);
                 startActivity(abcIntent);
 
             }

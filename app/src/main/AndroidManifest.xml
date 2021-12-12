@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".shapes"
+            android:exported="false" />
+        <activity
+            android:name=".fruits"
+            android:exported="false" />
+        <activity
+            android:name=".alphabets"
+            android:exported="false" />
+        <activity
             android:name=".animals"
             android:exported="false" />
         <activity
